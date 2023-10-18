@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array Operations</title>
+</head>
+<body>
+    <!-----------ARRAY-------------->
+    <h1>Array Operations</h1>
+
+    <label for="arrayLength">Enter the array length: </label>
+    <input type="number" id="arrayLength">
+    <button onclick="generateArray()">Generate Array</button>
+
+    <div>
+        <label for="addElement">Add Element:</label>
+        <input type="text" id="addElementArr">
+        <button onclick="addElementArr()">Add</button>
+    </div>
+
+    <div>
+        <label for="deleteElement">Delete Element:</label>
+        <input type="text" id="deleteElementArr">
+        <button onclick="deleteElementArr()">Delete</button>
+    </div>
+
+    <div>
+        <label for="searchElementArr">Search Element:</label>
+        <input type="text" id="searchElementArr">
+        <button onclick="searchElementArr()">Search</button>
+    </div>
+
+    <div id="resultArr"></div>
+
+    <script src="array.js"></script>
+
+
+    <!-----------LIST-------------->
+    <h1>List Operations</h1>
+
+    <label for="listLength">Enter the list length: </label>
+    <input type="number" id="listLength">
+    <button onclick="generateList()">Generate List</button>
+
+    <div>
+        <label for="addElementList">Add Element:</label>
+        <input type="text" id="addElementList">
+        <button onclick="addElementList()">Add</button>
+    </div>
+
+    <div>
+        <label for="deleteElementList">Delete Element:</label>
+        <input type="text" id="deleteElementList">
+        <button onclick="deleteElementList()">Delete</button>
+    </div>
+
+    <div>
+        <label for="searchElementList">Search Element:</label>
+        <input type="text" id="searchElementList">
+        <button onclick="searchElementList()">Search</button>
+    </div>
+
+    <div id="resultList"></div>
+    <script src="list.js"></script>
+
+
+    <!-----------DICTIONARY-------------->
+    <h1>Dictionary Operations</h1>
+
+    <label for="length">Enter the length of the dictionary:</label>
+    <input type="number" id="length" min="1">
+    <button onclick="createDictionary()">Create Dictionary</button>
+
+    <h2>Dictionary:</h2>
+    <ul id="dictionary"></ul>
+
+    <h2>Operations:</h2>
+    <label for="operation">Operation:</label>
+    <select id="operation">
+        <option value="add">Add</option>
+        <option value="delete">Delete</option>
+        <option value="search">Search</option>
+    </select>
+    <label for="element">Element:</label>
+    <input type="text" id="element">
+    <button onclick="performOperation()">Perform Operation</button>
+
+    <p id="resultDictionary"></p>
+    <script src="dictionary.js"></script>
+
+    <!------------SORTED LIST--------->
+    <h1>Sorted List Operations</h1>
+    <label for="sortedList">Enter a sorted list of numbers:</label>
+    <input type="text" id="sortedList">
+    
+    <button onclick="addElementSortedList()">Add</button>
+    <button onclick="deleteElementSortedList()">Delete</button>
+    <button onclick="searchElementSortedList()">Search</button>
+    <div id="outputSortedList"></div>
+    
+    <script src="sortedList.js"></script>
+
+    <!------------HASHSET--------->
+ 
+    
+    
+    <!------------SORTEDSET--------->
+    <h1>Sorted Set Operations</h1>
+    <input type="text" id="sortedSetInput">
+    <button onclick="addElementSortedSet()">Add</button>
+    <button onclick="deleteElementSortedSet()">Delete</button>
+    <button onclick="searchElementSortedSet()">Search</button>
+    <div id="outputSortedSet"></div>
+    
+    <script src="sortedSet.js"></script>
+
+    <!----------QUEUE----------->
+    <h1>Queue Operations</h1>
+
+    <input type="text" id="elementInput" placeholder="Enter an element">
+    <button onclick="enqueue()">Enqueue</button>
+    <button onclick="dequeue()">Dequeue</button>
+    <input type="text" id="searchInput" placeholder="Search for an element">
+    <button onclick="search()">Search</button>
+
+    <p><strong>Queue:</strong></p>
+    <ul id="queueList"></ul>
+    <p id="resultQueue"></p>
+    <script src="queue.js"></script>
+
+
+    <!------------STACK--------->
+    <h1>Stack Operations</h1>
+    
+    <label for="stack-input">Enter Stack (comma-separated):</label>
+    <input type="text" id="stack-input">
+    <button onclick="pushElement()">Add</button>
+    <button onclick="popElement()">Delete</button>
+    
+    <label for="search-input">Search Element:</label>
+    <input type="text" id="search-input">
+    <button onclick="searchElementStack()">Search</button>
+    
+    <div id="stack-display">Stack: </div>
+    <div id="search-result"></div>
+    <script src="stack.js"></script>
+
+    <!------------LINKEDLIST--------->
+    <h1>Linked List Operations</h1>
+  
+    <!-- Input for adding a new element -->
+    <label for="newElement">Add Element:</label>
+    <input type="text" id="newElement" placeholder="Enter element">
+    <button onclick="addElementLinkedList()">Add</button>
+    
+    <br><br>
+    
+    <!-- Input for searching an element -->
+    <label for="searchElement">Search Element:</label>
+    <input type="text" id="searchElement" placeholder="Enter element to search">
+    <button onclick="searchElementLinkedList()">Search</button>
+    
+    <br><br>
+    <!-- Input for deleting an element -->
+    <label for="deleteElement">Delete Element:</label>
+    <input type="text" id="deleteElement" placeholder="Enter element to delete">
+    <button onclick="deleteElementLinkedList()">Delete</button>
+
+    <!-- Display the linked list -->
+    <div id="linkedList">Linked List: </div>
+    
+    <br><br>
+    <script src="linkedList.js"></script>
+    
+
+    
+
+</body>
+</html> 
