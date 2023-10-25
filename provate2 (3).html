@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+    <head>
+        <title>Security Score Simulation</title>
+        <style>
+            .div_container {
+                display: inline-block;
+                width: 45%;
+                height: 400px;
+                margin-right: 10px;
+            }
+            canvas {
+                border: 1px solid black;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+
+
+    <body>
+
+        <div>
+            <label> Number of attacks </label>
+            <input type="number" id="N" value="0" min="0">
+            <br /> <br />
+
+            <label> Number of systems </label>
+            <input type="number" id="M" value="0" min="0">
+            <br /> <br />
+
+            <label> Attack's probability of success </label>
+            <input type="number" id="P" value="0" step="0.01" min="0" max="1">
+            <br /> <br />
+            <button onclick="generateGraphs()"> Generate </button>
+        </div>
+
+        <br /> <br />
+
+        <h2>Attack graphs</h2>
+        <div id="attack_graph_container" class="div_container draggable" width="600" height="400">
+            <canvas id="attack_graph" width="400" height="200"></canvas>
+        </div>
+        <div id="attack_histogram_container" class="div_container draggable" width="600" height="400">
+            <canvas id="attack_histogram" width="400" height="200"></canvas>
+        </div>
+
+
+        <h2>Cumulative frequency graphs</h2>
+        <div id="cumulative_graph_container" class="div_container draggable" width="600" height="400">
+            <canvas id="cumulative_graph" width="400" height="200"></canvas>
+        </div>
+        <div id="cumulative_histogram_container" class="div_container draggable" width="600" height="400">
+            <canvas id="cumulative_histogram" width="400" height="200"></canvas>
+        </div>
+
+
+        <h2>Relative frequency graphs</h2>
+        <div id="relative_graph_container" class="div_container draggable" width="600" height="400">
+            <canvas id="relative_graph" width="400" height="200"></canvas>
+        </div>
+        <div id="relative_histogram_container" class="div_container draggable" width="600" height="400">
+            <canvas id="relative_histogram" width="400" height="200"></canvas>
+        </div>
+
+
+        <h2>Normalized frequency graphs</h2>
+        <div id="normalized_graph_container" class="div_container draggable" width="600" height="400">
+            <canvas id="normalized_graph" width="400" height="200"></canvas>
+        </div>
+        <div id="normalized_histogram_container" class="div_container draggable" width="600" height="400">
+            <canvas id="normalized_histogram" width="400" height="200"></canvas>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+        <script>
+
+            "use strict"
+            let canvas = document.getElementById('attack_graph');
+            let context = canvas.getContext('2d');
+            let container = document.getElementById('attack_graph_container');
+            let width = container.clientWidth;
+            let height = container.clientHeight;
+            canvas.width = container.clientWidth;
+            canvas.height = height;
+
+
+            let histogram = document.getElementById('attack_histogram');
+            let containerhistogram = document.getElementById('attack_histogram_container');
+            let widthHist = containerhistogram.clientWidth;
+            let heightHist = containerhistogram.clientHeight;
+            histogram.width = widthHist;
+            histogram.height = heightHist;
+
+
+            let score_line = [];
+            let freqTot = [];
+            let N = parseInt(document.getElementById('N').value);
+            let P = parseFloat(document.getElementById('P').value);
+            let M = parseInt(document.getElementById('M').value);
+
+
+            // DRAGGABLE
+            $(document).ready(function () {
+                $(".draggable").draggable();
+            });
+
+
+
+            // RESIZE
+            const canvas_cumulative = document.getElementById('cumulative_graph');
+            const container_cumulative = document.getElementById('cumulative_graph_container');
+            const canvas_cumulative_histogram = document.getElementById('cumulative_histogram');
+            const container_cumulative_histogram = document.getElementById('cumulative_histogram_container');
+
+            const canvas_relative = document.getElementById('relative_graph');
+            const container_relative = document.getElementById('relative_graph_container');
+            const canvas_relative_histogram = document.getElementById('relative_histogram');
+            const container_relative_histogram = document.getElementById('relative_histogram_container');
+
+            const canvas_normalized = document.getElementById('normalized_graph');
+            const container_normalized = document.getElementById('normalized_histogram_container');
+            const canvas_normalized_histogram = document.getElementById('normalized_histogram');
+            const container_normalized_histogram = document.getElementById('normalized_histogram_container');
+
+            let isResizing = false;
+            let resizeOffsetX, resizeOffsetY;
+
+            addHandlersForResize(canvas, container);
+            addHandlersForResize(histogram, containerhistogram);
+            addHandlersForResize(canvas_cumulative, container_cumulative);
+            addHandlersForResize(canvas_cumulative_histogram, container_cumulative_histogram);
+            addHandlersForResize(canvas_relative, container_relative);
+            addHandlersForResize(canvas_relative_histogram, container_relative_histogram);
+            addHandlersForResize(canvas_normalized, container_normalized);
+            addHandlersForResize(canvas_normalized_histogram, container_normalized_histogram);
+
+
+
+            // FUNCTIONS
+            function init_graph() {
+                context.beginPath();
+                context.moveTo(0, height / 2);
+                context.lineTo(width, height / 2);
+                context.stroke();
+            }
+
+            function generateGraphs() {
+                N = parseInt(document.getElementById('N').value);
+                P = parseFloat(document.getElementById('P').value);
+                M = parseInt(document.getElementById('M').value);
+
+                let i = 0;
+                score_line.length = 0;
+                let scores = simulateSecurityScores();
+                score_line.push(...simulateSecurityScores());
+                console.log('score_line: ', score_line);
+
+                context.reset();
+                init_graph();
+                drawChart();
+
+                var frequenze = calcolaFrequenzaDistribuzione(freqTot);
+                var valori = freqTot.filter((x, i) => freqTot.indexOf(x) === i);
+                drawHistogram(valori, frequenze, document.getElementById('attack_histogram'));
+                drawFreq(calcoloCumulative(scores), document.getElementById('cumulative_graph'));
+
+
+                var valoriCum = [];
+                for (let i = 1; i <= N; i++) {
+                    valoriCum.push(i);
+                }
+                var cumulativeFreq = calcoloCumulative(scores);
+                drawHistogram(valoriCum, cumulativeFreq, document.getElementById('cumulative_histogram'));
+
+                
+                let relative = calcolaFrequenzaRelativa(cumulativeFreq);
+                drawFreq(Object.values(relative), document.getElementById('relative_graph'));
+                drawHistogram(valori, relative, document.getElementById('relative_histogram'));
+
+                
+                const normalized = calcolaFreqNormalizzata(cumulativeFreq);
+                drawFreq(Object.values(normalized), document.getElementById('normalized_graph'));
+                drawHistogram(valori, normalized, document.getElementById('normalized_histogram'));
+            }
+
+            
+            function drawFreq(array, canvas) {
+                let ctx = canvas.getContext('2d');
+                let width = canvas.width;
+                let height = canvas.height;
+                let padding = 10;
+                ctx.clearRect(0, 0, width, height);
+                let maxYValue = Math.max(...array);
+                let yScale = 50;
+                let xScale = 50;
+                let x = padding;
+                let y = height - padding;
+                ctx.beginPath();
+                ctx.moveTo(x, y);
+
+                for (let i = 0; i < array.length; i++) {
+                    x += (i + 1) * xScale;
+                    y -= array[i] * yScale;
+                    ctx.lineTo(x, y);
+                }
+
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.moveTo(padding, height - padding);
+                ctx.lineTo(width - padding, height - padding);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.moveTo(padding, padding);
+                ctx.lineTo(padding, height - padding);
+                ctx.stroke();
+            }
+
+
+            function simulateSecurityScores() {
+                let scores = [];
+                freqTot.length = 0;
+                var cumulativeFreq = [];
+                for (let j = 0; j < M; j++) {
+                    let scoresForSystem = [];
+                    for (let i = 0; i < N; i++) {
+                        let random = Math.random();
+                        if (random < P) { scoresForSystem.push(-1); }
+                        else { scoresForSystem.push(1); }
+                    }
+                    scores.push(scoresForSystem);
+                    var k = 0;
+                    for (let scorri = 0; scorri < N; scorri++) { k += scoresForSystem[scorri]; }
+                    freqTot.push(k);
+                }
+                return scores;
+            }
+
+
+            
+            function drawChart() {
+                const step = width / N;
+                let line_config = []
+
+                score_line.forEach(line => {
+                    line_config.push(
+                        {
+                            x: 0,
+                            y: height / 2,
+                            interval_ID: undefined,
+                            count: 0,
+                            color: `rgb(0, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`
+                        })
+                });
+
+                for (let m = 0; m < M; m++ ){
+                    console.log(line_config[m]);
+                    line_config[m].interval_ID = setInterval(()=> {
+                        // init
+                        
+    /*                     if (line_config[m].count === 0){
+                            console.log('init', m);
+                            // context.strokeStyle = `rgb(0, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
+                            // context.beginPath();
+                            context.moveTo(0, line_config[m].y);
+                            console.log(line_config[m].y);
+                        } */
+
+                        context.beginPath();
+                        context.strokeStyle = line_config[m].color;
+                        context.moveTo(line_config[m].x, line_config[m].y);
+                        line_config[m].x += step;
+                        line_config[m].y -= score_line[m][line_config[m].count] * 2;
+                        context.lineTo(line_config[m].x, line_config[m].y);
+                        // context.strokeStyle = `rgb(0, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
+                        context.stroke();
+
+                        if (line_config[m].count++ === N-1) {
+                            clearInterval(line_config[m].interval_ID);
+                            console.log('STOP line:', m);
+                        }
+
+                    }, 50)
+                }
+            } 
+
+            
+            function drawHistogram(valori, frequenze, canvas) {
+                var ctx = canvas.getContext('2d');
+                ctx.clearRect(0, 0, width, height);
+                var maxFrequenza = Math.max(...Object.values(frequenze));
+                var larghezzaColonna = 10;
+                var spaziaturaColonna = 20;
+                var altezzaCanvas = canvas.height;
+                var larghezzaCanvas = canvas.width;
+                var scalaY = altezzaCanvas / maxFrequenza;
+                var altezze = [];
+                var nuovo = altezzaCanvas - 20;
+
+                valori.sort(function (a, b) { return a - b; });
+
+                var xPos = spaziaturaColonna;
+
+                for (var i = 0; i < valori.length; i++) {
+                    var valore = valori[i];
+                    var frequenza = frequenze[valore];
+                    var altezzaColonna = frequenza * scalaY;
+                    altezze.push(altezzaColonna);
+                    ctx.fillStyle = 'blue'; // Colore delle colonne
+                    ctx.fillRect(xPos, nuovo - altezzaColonna, larghezzaColonna, altezzaColonna);
+                    xPos += larghezzaColonna + spaziaturaColonna;
+                }
+
+                ctx.beginPath();
+                ctx.moveTo(spaziaturaColonna, 0);
+                ctx.lineTo(spaziaturaColonna, nuovo);
+                ctx.lineTo(larghezzaCanvas, nuovo);
+                ctx.stroke();
+
+                ctx.fillStyle = 'black';
+                ctx.textAlign = 'center';
+                for (var i = 0; i < valori.length; i++) {
+                    var valore = valori[i];
+                    var xPosNumero = spaziaturaColonna + (larghezzaColonna + spaziaturaColonna) * i + larghezzaColonna / 2;
+                    ctx.fillText(valore, xPosNumero, nuovo + 15);
+                }
+
+                ctx.textAlign = 'right';
+                for (var i = 0; i < maxFrequenza; i++) {
+                    var yPosNumero = nuovo - i * scalaY;
+                    ctx.fillText(i, spaziaturaColonna - 5, yPosNumero);
+                    ctx.beginPath();
+                    ctx.moveTo(spaziaturaColonna - 2, yPosNumero);
+                    ctx.lineTo(spaziaturaColonna, yPosNumero);
+                    ctx.stroke();
+                }
+            }
+
+
+            function calcoloCumulative(scores) {
+                let cumulativeFreq = [];
+                for (let i = 0; i < N; i++) {
+                    let cumulative = 0;
+                    for (let j = 0; j < M; j++) {
+                        if (scores[j][i] === -1) { cumulative++; }
+                    }
+                    cumulativeFreq.push(cumulative);
+                }
+                return cumulativeFreq;
+            }
+
+
+            function calcolaFrequenzaDistribuzione(array) {
+                let frequenze = {};
+                for (let i = 0; i < array.length; i++) {
+                    let valore = array[i];
+                    if (frequenze[valore] === undefined) { frequenze[valore] = 1; }
+                    else { frequenze[valore]++; }
+                }
+                return frequenze;
+            }
+
+
+            function calcolaFrequenzaRelativa(cumulativeFreq) {
+                const frequenzeRelative = [];
+                const lunghezzaTotale = cumulativeFreq[cumulativeFreq.length - 1];
+                let conta = 0
+                for (let i = 1; i < cumulativeFreq.length; i++) {
+                    conta += cumulativeFreq[i];
+                    const frequenzaRelativa = conta / (M * i);
+                    frequenzeRelative.push(frequenzaRelativa);
+                }
+                return frequenzeRelative;
+            }
+
+
+            function calcolaFreqNormalizzata(cumulativeFreq) {
+                const f_normalizzate = [];
+                const lunghezzaTotale = cumulativeFreq[cumulativeFreq.length - 1];
+                let conta = 0
+                for (let i = 1; i < cumulativeFreq.length; i++) {
+                    conta += cumulativeFreq[i];
+                    const f_normalizzata = conta / Math.sqrt(M * i);
+                    f_normalizzate.push(f_normalizzata)
+                }
+                return f_normalizzate;
+            }
+
+
+
+
+
+
+            function resizeHistogram() {
+                var canvas = document.getElementById('attack_histogram');
+                var container = document.getElementById('attack_histogram_container');
+                canvas.width = container.clientWidth;
+                canvas.height = container.clientHeight;
+                drawHistogram(); // Ridisegna l'istogramma quando viene ridimensionato
+            }
+
+
+            function addHandlersForResize(element, container) {
+
+                element.addEventListener("mousedown", (event) => {
+                    if (event.button === 2) {
+                        const rect = element.getBoundingClientRect();
+                        resizeOffsetX = event.clientX - rect.right;
+                        resizeOffsetY = event.clientY - rect.bottom;
+                        isResizing = true;
+                    }
+                });
+
+                element.addEventListener("mousemove", (event) => {
+                    if (isResizing) {
+                        element.style.width = event.clientX - element.getBoundingClientRect().left - resizeOffsetX + "px";
+                        element.style.height = event.clientY - element.getBoundingClientRect().top - resizeOffsetY + "px";
+                        container.style.width = event.clientX - element.getBoundingClientRect().left - resizeOffsetX + "px";
+                        container.style.height = event.clientY - element.getBoundingClientRect().top - resizeOffsetY + "px";
+                    }
+                });
+
+                element.addEventListener("mouseup", () => {
+                    isResizing = false;
+                });
+
+
+                element.addEventListener("resize", () => {
+                    element.style.width = container.clientWidth + "px";
+                    element.style.height = container.clientHeight + "px";
+                    container.style.width = container.clientWidth + "px";
+                    container.style.height = container.clientHeight + "px";
+                });
+            }
+
+
+        </script>
+
+    </body>
+
+
+</html>
