@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HgBobVxpbIemfj9cHYcLJOa2kpEiTVA+zXzu1u1KbsgNGfOk+3KtXCDC6d0ov1SNj1OvSevc+evnzGAYFphYFg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Matteo\\Desktop\\Statistics\\Homework 6\\Penetration_C#\\Penetration_C#.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matteo\\.nuget\\packages\\winforms.datavisualization\\1.9.0\\winforms.datavisualization.1.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

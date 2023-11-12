@@ -1,0 +1,147 @@
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.exe
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.deps.json
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.runtimeconfig.json
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Form1.resources
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.GenerateResource.cache
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfoInputs.cache
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfo.cs
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CoreCompileInputs.cache
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\refint\Penetration_C#.dll
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.genruntimeconfig.cache
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\ref\Penetration_C#.dll
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Properties.Resources.resources
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.AssemblyReference.cache
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
+C:\Users\Zio Saba\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CopyComplete
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.exe
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.deps.json
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.runtimeconfig.json
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.AssemblyReference.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Form1.resources
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Properties.Resources.resources
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.GenerateResource.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfoInputs.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfo.cs
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CoreCompileInputs.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CopyComplete
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\refint\Penetration_C#.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.genruntimeconfig.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\ref\Penetration_C#.dll
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.exe
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.deps.json
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.runtimeconfig.json
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.AssemblyReference.cache
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Form1.resources
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Properties.Resources.resources
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.GenerateResource.cache
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfoInputs.cache
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfo.cs
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CoreCompileInputs.cache
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CopyComplete
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\refint\Penetration_C#.dll
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.genruntimeconfig.cache
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 3\Penetration_C#\obj\Debug\net6.0-windows\ref\Penetration_C#.dll
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.exe
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.deps.json
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.runtimeconfig.json
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.AssemblyReference.cache
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Form1.resources
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Properties.Resources.resources
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.GenerateResource.cache
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfoInputs.cache
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfo.cs
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CoreCompileInputs.cache
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CopyComplete
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\refint\Penetration_C#.dll
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.genruntimeconfig.cache
+C:\Users\ely-e\Desktop\MATTEO ONEDRIVE\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\ref\Penetration_C#.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.AssemblyReference.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Form1.resources
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Properties.Resources.resources
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.GenerateResource.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfoInputs.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfo.cs
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CoreCompileInputs.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\refint\Penetration_C#.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.exe
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.deps.json
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.runtimeconfig.json
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CopyComplete
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.genruntimeconfig.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 4\Penetration_C#\obj\Debug\net6.0-windows\ref\Penetration_C#.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.exe
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.deps.json
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.runtimeconfig.json
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.AssemblyReference.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Form1.resources
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Properties.Resources.resources
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.GenerateResource.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfoInputs.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfo.cs
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CoreCompileInputs.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CopyComplete
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\refint\Penetration_C#.dll
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.genruntimeconfig.cache
+C:\Users\Matteo\OneDrive\Documenti\Statistics\Homework 5\Penetration_C#\obj\Debug\net6.0-windows\ref\Penetration_C#.dll
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.exe
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.deps.json
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.runtimeconfig.json
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\bin\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.AssemblyReference.cache
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Form1.resources
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C_.Properties.Resources.resources
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.GenerateResource.cache
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfoInputs.cache
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.AssemblyInfo.cs
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CoreCompileInputs.cache
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.csproj.CopyComplete
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.dll
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\refint\Penetration_C#.dll
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.pdb
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\Penetration_C#.genruntimeconfig.cache
+C:\Users\Matteo\Desktop\Statistics\Homework 6\Penetration_C#\obj\Debug\net6.0-windows\ref\Penetration_C#.dll
